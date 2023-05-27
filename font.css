@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400&family=Mulish:wght@200;400;700&family=Playfair+Display:wght@400;500;600;700;800&family=Sen:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hind+Guntur:wght@300;400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800&family=Manrope:wght@200;300;400&family=Mulish:wght@200;400;700&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Sen:wght@400;700;800&display=swap");
+* {
+     font-style: normal;
+     text-decoration: none;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+.flex {
+     display: flex;
+}
+h1,
+h2,
+.google,
+footer > .f-button > button {
+     color: #0d24a0;
+}
+h3,
+a {
+     color: #0957de;
+}
+h1,
+h3 {
+     font-weight: 700;
+}
+h2,
+a,
+p,
+li,
+a > .button,
+button,
+label,
+.google,
+.registerL,
+footer > .f-button > button,
+footer ul li,
+footer > p {
+     font-weight: 400;
+     font-family: "Poppins";
+}
+h1 {
+     font-family: "Sen";
+     font-size: 70px;
+     line-height: 84px;
+}
+h2 {
+     font-size: 48px;
+     line-height: 72px;
+}
+h3 {
+     font-size: 32px;
+     line-height: 48px;
+     font-family: "Poppins";
+}
+a,
+a > .button {
+     font-size: 20px;
+     line-height: 30px;
+}
+p,
+li {
+     font-size: 24px;
+     line-height: 36px;
+}
+li,
+.f-box p,
+.blue {
+     color: #4658b7;
+}
+a > .button,
+button {
+     color: #ffffff;
+     text-align: center;
+}
+button {
+     font-size: 16px;
+     line-height: 24px;
+}
+a > .button {
+     padding-top: 10px;
+}
+label {
+     font-size: 24.6853px;
+     line-height: 37px;
+     color: #969696;
+}
+.google,
+.registerL,
+footer > .f-button > button {
+     font-size: 20.5509px;
+     line-height: 31px;
+}
+.registerL,
+footer ul li,
+.habar,
+footer > p {
+     color: #ffffff;
+}
+footer ul li {
+     font-size: 20px;
+     line-height: 27px;
+}
+.habar {
+     font-weight: 700;
+     font-size: 24px;
+     line-height: 28px;
+}
+footer > p {
+     font-size: 17px;
+     line-height: 32px;
+}
+.card-text p,
+.card-text span,
+.card-text h3
+{
+     color: black;
+     font-size: 16px;
+     line-height: 24px;
+ }
+ .card-text h3{
+     font-weight: bold;
+ }
+
+/* footer/logo  */
+.flex {
+     justify-content: space-between;
+     align-items: center;
+}
+.container {
+     width: 85%;
+     margin: 0 auto;
+}
+footer {
+     width: 100%;
+     height: 342px;
+     background: #0d24a0;
+     padding-top: 58px;
+ }
+ footer > .container {
+     align-items: baseline;
+ }
+ footer > .f-button > button {
+     width: 511px;
+     height: 52px;
+     background: #ffffff;
+     box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+ }
+ .f-button {
+     margin: 0 auto 33px;
+     width: 511px;
+ }
+ .right-f a {
+     display: block;
+     margin-bottom: 60px;
+     text-align: right;
+     font-weight: 700;
+     font-size: 16px;
+     line-height: 30px;
+     color: #ffffff;
+ }
+ footer > p {
+     text-align: center;
+ }

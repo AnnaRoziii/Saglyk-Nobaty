@@ -1,0 +1,91 @@
+
+header {
+     padding: 9px;
+     border-bottom: 1px solid #7b8fff;
+}
+header > .container > nav {
+     width: 40%;
+}
+button {
+     width: 172.89px;
+     height: 44px;
+     background: #0d24a0;
+     box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+     cursor: pointer;
+}
+
+
+/* register section start  */
+.content {
+     width: 50%;
+}
+a > .button {
+     width: 287px;
+     height: 52px;
+     background: #062cff;
+     box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.25);
+     border-radius: 10px;
+}
+.register {
+     padding: 159px 0 111px 0;
+     background-image: url(images_home_page/Group\ 52.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: right;
+}
+.register > .container > .content > p {
+     padding: 31px 0 103px 0;
+}
+/* features section start  */
+.features {
+     background: #f5f5f5;
+     padding: 20px 0 29px 0;
+}
+.f-box {
+     height: 163px;
+     width: 32%;
+     text-align: center;
+     padding-top: 3.5%;
+}
+.features > .box > .middle {
+     border-left: 1px solid #0d24a0;
+     border-right: 1px solid #0d24a0;
+}
+.box {
+     display: flex;
+     justify-content: center;
+}
+/* about us section start  */
+.about-us {
+     padding: 188px 0 187px 0;
+}
+.left {
+     background-image: url(images_home_page/vector1.png);
+     background-size: cover;
+     width: 55%;
+     position: relative;
+     height: 600px;
+}
+.child {
+     position: absolute;
+}
+.child1 {
+     top: 127px;
+     left: 40px;
+}
+.child2 {
+     right: 91px;
+     top: -10px;
+}
+.child3 {
+     right: 91px;
+     bottom: 48px;
+}
+.right {
+     width: 40%;
+}
+.blue,
+.about-us ul {
+     margin: 36px 0;
+}

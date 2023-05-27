@@ -1,0 +1,120 @@
+/* header start  */
+.header {
+     padding: 10px 0;
+     border-bottom: 2px solid rgba(123, 143, 255, 0.5);
+}
+.header-inner {
+     display: grid;
+     align-items: center;
+     grid-template-columns: 1fr 1fr;
+     gap: 40px;
+}
+.header-right {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 25px;
+}
+/* main start  */
+button {
+     cursor: pointer;
+}
+.main-inner {
+     gap: 40px;
+     padding: 50px 0;
+}
+.cards-wrapper {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 24px;
+}
+.main-title {
+     font-size: 48px;
+     color: #062cff;
+     font-weight: normal;
+     text-align: center;
+}
+.card {
+     overflow: hidden;
+     border-radius: 25px;
+     display: flex;
+     flex-direction: column;
+     gap: 45px;
+     height: 600px;
+     padding-bottom: 35px;
+     box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.25);
+}
+.card-top {
+     height: 253px;
+     width: 100%;
+}
+.card-top img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+.card-body {
+     display: flex;
+     flex-direction: column;
+     gap: 36px;
+     padding: 0 34px;
+}
+.card-text {
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+}
+.card-buttons {
+     display: flex;
+     align-items: center;
+     gap: 15px;
+}
+.btn-white {
+     background: white;
+     padding: 10px 15px;
+     border: 1px solid #062cff;
+     color: #062cff;
+     font-size: 16px;
+     border-radius: 10px;
+     width: fit-content;
+}
+.btn-blue {
+     background: #062cff;
+     border: none;
+     padding: 10px 15px;
+     color: white;
+     font-size: 16px;
+     border-radius: 10px;
+     width: fit-content;
+}
+.address-wrapper,
+.search {
+     max-width: 300px;
+     width: 100%;
+     display: flex;
+     align-items: center;
+     gap: 30px;
+     justify-content: space-between;
+     position: relative;
+     border: 1px solid #062cff;
+     border-radius: 50px;
+     overflow: hidden;
+}
+.address-wrapper input,
+.search input {
+     padding: 10px 20px;
+     padding-right: 50px;
+     width: 100%;
+     border: none;
+     outline: none;
+     font-size: 16px;
+}
+.address-wrapper img,
+.search img {
+     width: 24px;
+     height: 24px;
+     position: absolute;
+     right: 20px;
+     top: 50%;
+     transform: translateY(-50%);
+}
